@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  color: rgb(0, 0, 0);
+  margin-top: 5rem;
+}
+.navigation {
+  font: bold;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.currentPokemon,
+.nextPokemon {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+.Pokemon {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  margin-right: 4rem;
+  transition: 0.5s all;
+  display: flex;
+  width: 400px;
+}
+
+.Prop {
+  display: none;
+}
+
+.Pokemon:hover .Prop {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.5s all;
+}
+
+.Pokemon:hover {
+  transition-duration: 1s;
+  width: 1000px;
+  transition-timing-function: linear;
+  transition: 0.5s all;
+}
+
+.GroupProp {
+  display: flex;
+  justify-content: space-around;
+  transition: 0.5s all;
+}
+
+.GroupProp > div > p {
+  font-size: 28px;
+  transition: 0.5s all;
+}
+
+.alter {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(56, 66, 209);
+  margin-bottom: 5px;
+  transition: 0.5s all;
+  margin-top: 2rem;
+}
+
+.Prop h2 {
+  padding: 0.5rem;
+}
+
+.Pokemon img {
+  object-fit: contain;
+}
+
+.PokeNames {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Description {
+  background-color: #ffffff;
+  width: 15rem;
+  height: 2rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Status,
+.PokeInfosValues,
+.PokeInfosValuesHP,
+.PokeInfosValuesEXP,
+.PokeInfosValuesDEF {
+  display: flex;
+  align-items: center;
+}
+.PokeInfos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.PokeInfos h1,
+.Status {
+  margin-bottom: 2.5rem;
+}
+
+.PokeInfos h1 {
+  margin-top: 1.5rem;
+}
+
+.PokeInfosValues {
+  margin-left: 1rem;
+}
+
+.PokeInfosValuesHP {
+  margin-left: 1.5rem;
+}
+
+.PokeInfosValuesEXP {
+  margin-left: 1.2rem;
+}
+
+.PokeInfosValuesDEF {
+  margin-left: 1.2rem;
+}
+
+.PokeInfosValues span {
+  padding: 0.3rem;
+}
+.HpBulbasaur,
+.ATKBulbasaur,
+.DEFBulbasaur,
+.SPDBulbasaur,
+.EXPBulbasaur {
+  background-color: rgb(56, 66, 209);
+  border-radius: 0.3rem;
+  height: 1.4rem;
+}
+.HpBulbasaur {
+  padding-left: 31.5rem;
+  width: 36rem;
+}
+
+.ATKBulbasaur {
+  padding-left: 12rem;
+  padding-right: 3.8rem;
+  width: 12.5rem;
+}
+
+.DEFBulbasaur {
+  padding-left: 17.3rem;
+  margin-right: -2.1rem;
+  width: 25.8rem;
+}
+
+.SPDBulbasaur {
+  padding-left: 10rem;
+  padding-right: 3.8rem;
+  width: 12rem;
+}
+
+.EXPBulbasaur {
+  padding-left: 15.5rem;
+  padding-right: 1rem;
+  width: 19rem;
+}
+.BackgroundPokeInfoATK,
+.BackgroundPokeInfoDEF,
+.BackgroundPokeInfoSPD,
+.BackgroundPokeInfoEXP {
+  background-color: #fff;
+  height: 1.4rem;
+  border-radius: 0.1rem 0.3rem 0.3rem 0.1rem;
+  height: 1.4rem;
+}
+.BackgroundPokeInfoATK {
+  width: 20rem;
+}
+
+.BackgroundPokeInfoDEF {
+  width: 12rem;
+}
+
+.BackgroundPokeInfoSPD {
+  width: 22rem;
+}
+
+.BackgroundPokeInfoEXP {
+  width: 16.5rem;
+}
